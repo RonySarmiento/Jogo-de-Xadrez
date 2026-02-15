@@ -3,7 +3,9 @@ int main() {
 int t = 1;
     int  b = 1;
 int r;
-    while (t <=5) {
+
+    int movimentocavalo = 1;
+     while (t <=5) {
         printf("Torre à direita\n");
 t++;
     }
@@ -18,7 +20,12 @@ for (r = 1; r <= 8; r++)
 {
     printf("Rainha à esquerda\n");
 }
-
+printf("\n");
+do{
+    for (movimentocavalo = 1; movimentocavalo <= 2; movimentocavalo++)
+    printf(" Cavalo esquerda\n");
+}while (movimentocavalo <= 2);
+printf("Cavalo direita\n");
     return 0;
 
 }
