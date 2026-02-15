@@ -21,7 +21,7 @@ for (r = 1; r <= 8; r++)
     printf("Rainha à esquerda\n");
 }
 printf("\n");
-do{
+do{ // loops aninhados
     for (movimentocavalo = 1; movimentocavalo <= 2; movimentocavalo++)
     printf(" Cavalo esquerda\n");
 }while (movimentocavalo <= 2);
